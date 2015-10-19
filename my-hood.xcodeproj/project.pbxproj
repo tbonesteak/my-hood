@@ -14,6 +14,7 @@
 		CE1FF1FE1BD1E04A007B9787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1FF1FC1BD1E04A007B9787 /* LaunchScreen.storyboard */; };
 		CE1FF2071BD1E304007B9787 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FF2061BD1E304007B9787 /* Post.swift */; settings = {ASSET_TAGS = (); }; };
 		CE1FF20A1BD2207A007B9787 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FF2091BD2207A007B9787 /* PostCell.swift */; settings = {ASSET_TAGS = (); }; };
+		CE9DF87A1BD44D86000AE92F /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DF8791BD44D86000AE92F /* AddPostVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE1FF1FF1BD1E04A007B9787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1FF2061BD1E304007B9787 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CE1FF2091BD2207A007B9787 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CE9DF8791BD44D86000AE92F /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,7 @@
 			children = (
 				CE1FF2051BD1E2A7007B9787 /* Model */,
 				CE1FF1F31BD1E04A007B9787 /* AppDelegate.swift */,
-				CE1FF1F51BD1E04A007B9787 /* ViewController.swift */,
-				CE1FF1F71BD1E04A007B9787 /* Main.storyboard */,
 				CE1FF1FA1BD1E04A007B9787 /* Assets.xcassets */,
-				CE1FF1FC1BD1E04A007B9787 /* LaunchScreen.storyboard */,
 				CE1FF1FF1BD1E04A007B9787 /* Info.plist */,
 			);
 			path = "my-hood";
@@ -81,9 +80,21 @@
 		CE1FF2081BD21FFF007B9787 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE1FF1FC1BD1E04A007B9787 /* LaunchScreen.storyboard */,
+				CE1FF1F71BD1E04A007B9787 /* Main.storyboard */,
 				CE1FF2091BD2207A007B9787 /* PostCell.swift */,
+				CE9DF8781BD44C89000AE92F /* Controller */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		CE9DF8781BD44C89000AE92F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FF1F51BD1E04A007B9787 /* ViewController.swift */,
+				CE9DF8791BD44D86000AE92F /* AddPostVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			files = (
 				CE1FF2071BD1E304007B9787 /* Post.swift in Sources */,
 				CE1FF1F61BD1E04A007B9787 /* ViewController.swift in Sources */,
+				CE9DF87A1BD44D86000AE92F /* AddPostVC.swift in Sources */,
 				CE1FF1F41BD1E04A007B9787 /* AppDelegate.swift in Sources */,
 				CE1FF20A1BD2207A007B9787 /* PostCell.swift in Sources */,
 			);
@@ -309,6 +321,7 @@
 				CE1FF2041BD1E04A007B9787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
